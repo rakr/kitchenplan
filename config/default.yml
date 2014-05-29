@@ -6,4 +6,4 @@ recipes:
 attributes:
     homebrewalt:
         cask_apps:
-            - google-chrome
+
