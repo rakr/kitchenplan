@@ -1,21 +1,17 @@
 groups:
 recipes:
     global:
-        - dotfiles::sshconfig
     mac_os_x:
-        - applications::omnigraffle
-        - applications::launchrocket
         - sudoalt::default
 attributes:
     git:
         name: Ramzi Akremi
         email: ramzi.akremi@gmail.com
     osxdefaults:
-        computername: Mir
+        computername: Linus
     homebrewalt:
         cask_apps:
             - dropbox
-            - evernote
             - alfred
             - virtualbox
             - vagrant
